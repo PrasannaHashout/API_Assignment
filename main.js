@@ -1,4 +1,3 @@
-//https://finalspaceapi.com/api/v0/character/
 const finalSpace_container = document.getElementById('content_container');
 const finalSpace_counts = 47;
 
