@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato';
+	margin: 0;
+	background: black;
+}
+
+
+.content-container {
+	margin: 0 auto;
+     display: grid;
+     gap: 20px;
+     grid-template-columns: repeat(5, 1fr);
+     grid-auto-flow: dense;
+	max-width: 1440px;
+}
+
+h1 {
+	letter-spacing: 20px;
+      color: white;
+      font-weight: 900;
+      font-size: 58px;
+	
+}
+
+.finalSpace {
+	background-color: #eee;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 30px;
+	text-align: center;
+      background: linear-gradient(to right, #fc27fc 0%,#291ab6 100%);  
+	box-shadow: 0 42px 74px purple;
+}
+
+.finalSpace .img-container {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+      margin: auto;
+}
+
+.finalSpace .img-container img {
+	margin-top: 10px;
+	max-width: 90%;
+      border-radius:50%;
+	box-shadow: 0 4px 14px 4px whitesmoke;
+}
+
+.finalSpace .info {
+	margin-top: 20px;
+      color: black;
+}
+
+.finalSpace .number {
+	background-color: rgba(235, 20, 152, 0.959);
+	border-radius: 60px;
+	font-size: 0.8em;
+	padding: 5px 20px;
+
+}
+
+.finalSpace .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+	box-shadow: 0 4px 6px lightblue;
+      padding: 4px 4px;
+	border-radius: 15px;
+	background: rgb(207,217,211);
+	background: linear-gradient(90deg, rgba(207,217,211,0.9755252442773985) 36%, rgba(154,141,154,1) 58%);
+} 
+
+.gender-box {
+	color: yellow;
+	font-size: 14px;
+	font-weight: 600;
+}
+.type{
+	color: gainsboro;
+	font-size: 14px;
+	font-weight: 400;
+	font-weight: 700;
+}
